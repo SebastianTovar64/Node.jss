@@ -1,0 +1,113 @@
+body {
+    background: grey;
+    background-size: cover;
+    -webkit-animation: bg-color 5s infintite;
+    animation: bg-color 15s infinite;
+    }
+
+    @-webkit-keyframes bg-color {
+    14.3% {
+        background-color: #C77DF3;
+    }
+    28.6% {
+        background-color: #8A2BE2;
+    }
+    42.9% {
+        background-color: #0000ff;
+    }
+    57.2% {
+        background-color: #00ff00;
+    }
+    71.5% {
+        background-color: #ffdd00;
+    }
+    85.8% {
+        background-color: #ff7700;
+    }
+    100% {
+        background-color: #FF0000;
+    }
+    }
+
+    @keyframes bg-color {
+    14.3% {
+        background-color: #C77DF3;
+    }
+    28.6% {
+        background-color: #8A2BE2;
+    }
+    42.9% {
+        background-color: #0000ff;
+    }
+    57.2% {
+        background-color: #00ff00;
+    }
+    71.5% {
+        background-color: #ffdd00;
+    }
+    85.8% {
+        background-color: #ff7700;
+    }
+    100% {
+        background-color: #FF0000;
+    }
+}
+
+/*Estilo general de la tabla*/
+table {
+    width: 100%;
+    border-collapse:collapse;
+    border: 2xp solid #040404;
+    width: 50%;
+    margin-top: 20px;
+    margin-left:25%;
+    box-shadow: 0 0 5px rgba(0, 161, 27, 0.1);
+    animation: bg-color 15s linear infinite;
+    
+}
+
+/*Estilo de las filas impares*/
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    border: 1.5px solid #040404;
+}
+
+/*Estilo de las filas pares*/
+table tr:nth-child(even) {
+    background-color: #fff;
+    border:1.5px solid #040404
+}
+/*Estilo de los encabezados de columna*/
+thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+/*Estilo de las celdas*/
+td {
+    padding: 10px;
+}
+
+/*Efecto de transcion al pasar el cursor sobre las filas*/
+tbody tr:hover {
+    background-color: cadetblue;
+    transition: background-color 0.3s ease;
+
+}
+/*Efecto de transcion al hacer clic en las filas*/
+tbody tr.active {
+    background-color: #a9a9a9a9;
+    transition: background-color 0.3s ease;
+}
+h1 {
+    text-align: center;
+margin-top: 30px;
+color: #000;
+text-shadow:aqua (2, 32, 138, 0.776) -2px 4px;
+font-size: 200%;
+font-display: auto;
+font-family: 'Work Sans', sans-serif;
+}
+
+
